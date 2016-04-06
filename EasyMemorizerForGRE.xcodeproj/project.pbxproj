@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FECF451CB4C4F6002890EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF441CB4C4F6002890EF /* AppDelegate.swift */; };
+		03FECF471CB4C4F6002890EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF461CB4C4F6002890EF /* ViewController.swift */; };
+		03FECF4A1CB4C4F6002890EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF481CB4C4F6002890EF /* Main.storyboard */; };
+		03FECF4C1CB4C4F6002890EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF4B1CB4C4F6002890EF /* Assets.xcassets */; };
+		03FECF4F1CB4C4F6002890EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF4D1CB4C4F6002890EF /* LaunchScreen.storyboard */; };
+		03FECF5A1CB4C4F6002890EF /* EasyMemorizerForGRETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF591CB4C4F6002890EF /* EasyMemorizerForGRETests.swift */; };
+		03FECF651CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF641CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FECF561CB4C4F6002890EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FECF391CB4C4F6002890EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FECF401CB4C4F6002890EF;
+			remoteInfo = EasyMemorizerForGRE;
+		};
+		03FECF611CB4C4F6002890EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FECF391CB4C4F6002890EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FECF401CB4C4F6002890EF;
+			remoteInfo = EasyMemorizerForGRE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FECF411CB4C4F6002890EF /* EasyMemorizerForGRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMemorizerForGRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FECF441CB4C4F6002890EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03FECF461CB4C4F6002890EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03FECF491CB4C4F6002890EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03FECF4B1CB4C4F6002890EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FECF4E1CB4C4F6002890EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03FECF501CB4C4F6002890EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FECF551CB4C4F6002890EF /* EasyMemorizerForGRETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMemorizerForGRETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FECF591CB4C4F6002890EF /* EasyMemorizerForGRETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemorizerForGRETests.swift; sourceTree = "<group>"; };
+		03FECF5B1CB4C4F6002890EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FECF601CB4C4F6002890EF /* EasyMemorizerForGREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMemorizerForGREUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FECF641CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemorizerForGREUITests.swift; sourceTree = "<group>"; };
+		03FECF661CB4C4F6002890EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FECF3E1CB4C4F6002890EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FECF521CB4C4F6002890EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FECF5D1CB4C4F6002890EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FECF381CB4C4F6002890EF = {
+			isa = PBXGroup;
+			children = (
+				03FECF431CB4C4F6002890EF /* EasyMemorizerForGRE */,
+				03FECF581CB4C4F6002890EF /* EasyMemorizerForGRETests */,
+				03FECF631CB4C4F6002890EF /* EasyMemorizerForGREUITests */,
+				03FECF421CB4C4F6002890EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03FECF421CB4C4F6002890EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FECF411CB4C4F6002890EF /* EasyMemorizerForGRE.app */,
+				03FECF551CB4C4F6002890EF /* EasyMemorizerForGRETests.xctest */,
+				03FECF601CB4C4F6002890EF /* EasyMemorizerForGREUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FECF431CB4C4F6002890EF /* EasyMemorizerForGRE */ = {
+			isa = PBXGroup;
+			children = (
+				03FECF441CB4C4F6002890EF /* AppDelegate.swift */,
+				03FECF461CB4C4F6002890EF /* ViewController.swift */,
+				03FECF481CB4C4F6002890EF /* Main.storyboard */,
+				03FECF4B1CB4C4F6002890EF /* Assets.xcassets */,
+				03FECF4D1CB4C4F6002890EF /* LaunchScreen.storyboard */,
+				03FECF501CB4C4F6002890EF /* Info.plist */,
+			);
+			path = EasyMemorizerForGRE;
+			sourceTree = "<group>";
+		};
+		03FECF581CB4C4F6002890EF /* EasyMemorizerForGRETests */ = {
+			isa = PBXGroup;
+			children = (
+				03FECF591CB4C4F6002890EF /* EasyMemorizerForGRETests.swift */,
+				03FECF5B1CB4C4F6002890EF /* Info.plist */,
+			);
+			path = EasyMemorizerForGRETests;
+			sourceTree = "<group>";
+		};
+		03FECF631CB4C4F6002890EF /* EasyMemorizerForGREUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03FECF641CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift */,
+				03FECF661CB4C4F6002890EF /* Info.plist */,
+			);
+			path = EasyMemorizerForGREUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FECF401CB4C4F6002890EF /* EasyMemorizerForGRE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FECF691CB4C4F6002890EF /* Build configuration list for PBXNativeTarget "EasyMemorizerForGRE" */;
+			buildPhases = (
+				03FECF3D1CB4C4F6002890EF /* Sources */,
+				03FECF3E1CB4C4F6002890EF /* Frameworks */,
+				03FECF3F1CB4C4F6002890EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMemorizerForGRE;
+			productName = EasyMemorizerForGRE;
+			productReference = 03FECF411CB4C4F6002890EF /* EasyMemorizerForGRE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03FECF541CB4C4F6002890EF /* EasyMemorizerForGRETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FECF6C1CB4C4F6002890EF /* Build configuration list for PBXNativeTarget "EasyMemorizerForGRETests" */;
+			buildPhases = (
+				03FECF511CB4C4F6002890EF /* Sources */,
+				03FECF521CB4C4F6002890EF /* Frameworks */,
+				03FECF531CB4C4F6002890EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FECF571CB4C4F6002890EF /* PBXTargetDependency */,
+			);
+			name = EasyMemorizerForGRETests;
+			productName = EasyMemorizerForGRETests;
+			productReference = 03FECF551CB4C4F6002890EF /* EasyMemorizerForGRETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03FECF5F1CB4C4F6002890EF /* EasyMemorizerForGREUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FECF6F1CB4C4F6002890EF /* Build configuration list for PBXNativeTarget "EasyMemorizerForGREUITests" */;
+			buildPhases = (
+				03FECF5C1CB4C4F6002890EF /* Sources */,
+				03FECF5D1CB4C4F6002890EF /* Frameworks */,
+				03FECF5E1CB4C4F6002890EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FECF621CB4C4F6002890EF /* PBXTargetDependency */,
+			);
+			name = EasyMemorizerForGREUITests;
+			productName = EasyMemorizerForGREUITests;
+			productReference = 03FECF601CB4C4F6002890EF /* EasyMemorizerForGREUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FECF391CB4C4F6002890EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lee Janghyup";
+				TargetAttributes = {
+					03FECF401CB4C4F6002890EF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					03FECF541CB4C4F6002890EF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 03FECF401CB4C4F6002890EF;
+					};
+					03FECF5F1CB4C4F6002890EF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 03FECF401CB4C4F6002890EF;
+					};
+				};
+			};
+			buildConfigurationList = 03FECF3C1CB4C4F6002890EF /* Build configuration list for PBXProject "EasyMemorizerForGRE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FECF381CB4C4F6002890EF;
+			productRefGroup = 03FECF421CB4C4F6002890EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FECF401CB4C4F6002890EF /* EasyMemorizerForGRE */,
+				03FECF541CB4C4F6002890EF /* EasyMemorizerForGRETests */,
+				03FECF5F1CB4C4F6002890EF /* EasyMemorizerForGREUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FECF3F1CB4C4F6002890EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FECF4F1CB4C4F6002890EF /* LaunchScreen.storyboard in Resources */,
+				03FECF4C1CB4C4F6002890EF /* Assets.xcassets in Resources */,
+				03FECF4A1CB4C4F6002890EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FECF531CB4C4F6002890EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FECF5E1CB4C4F6002890EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FECF3D1CB4C4F6002890EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FECF471CB4C4F6002890EF /* ViewController.swift in Sources */,
+				03FECF451CB4C4F6002890EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FECF511CB4C4F6002890EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FECF5A1CB4C4F6002890EF /* EasyMemorizerForGRETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FECF5C1CB4C4F6002890EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FECF651CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03FECF571CB4C4F6002890EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FECF401CB4C4F6002890EF /* EasyMemorizerForGRE */;
+			targetProxy = 03FECF561CB4C4F6002890EF /* PBXContainerItemProxy */;
+		};
+		03FECF621CB4C4F6002890EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FECF401CB4C4F6002890EF /* EasyMemorizerForGRE */;
+			targetProxy = 03FECF611CB4C4F6002890EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03FECF481CB4C4F6002890EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FECF491CB4C4F6002890EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03FECF4D1CB4C4F6002890EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FECF4E1CB4C4F6002890EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03FECF671CB4C4F6002890EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03FECF681CB4C4F6002890EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03FECF6A1CB4C4F6002890EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyMemorizerForGRE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonaapp.EasyMemorizerForGRE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03FECF6B1CB4C4F6002890EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyMemorizerForGRE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonaapp.EasyMemorizerForGRE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03FECF6D1CB4C4F6002890EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyMemorizerForGRETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonaapp.EasyMemorizerForGRETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMemorizerForGRE.app/EasyMemorizerForGRE";
+			};
+			name = Debug;
+		};
+		03FECF6E1CB4C4F6002890EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasyMemorizerForGRETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonaapp.EasyMemorizerForGRETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMemorizerForGRE.app/EasyMemorizerForGRE";
+			};
+			name = Release;
+		};
+		03FECF701CB4C4F6002890EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyMemorizerForGREUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonaapp.EasyMemorizerForGREUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyMemorizerForGRE;
+			};
+			name = Debug;
+		};
+		03FECF711CB4C4F6002890EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasyMemorizerForGREUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonaapp.EasyMemorizerForGREUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasyMemorizerForGRE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FECF3C1CB4C4F6002890EF /* Build configuration list for PBXProject "EasyMemorizerForGRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FECF671CB4C4F6002890EF /* Debug */,
+				03FECF681CB4C4F6002890EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FECF691CB4C4F6002890EF /* Build configuration list for PBXNativeTarget "EasyMemorizerForGRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FECF6A1CB4C4F6002890EF /* Debug */,
+				03FECF6B1CB4C4F6002890EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03FECF6C1CB4C4F6002890EF /* Build configuration list for PBXNativeTarget "EasyMemorizerForGRETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FECF6D1CB4C4F6002890EF /* Debug */,
+				03FECF6E1CB4C4F6002890EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03FECF6F1CB4C4F6002890EF /* Build configuration list for PBXNativeTarget "EasyMemorizerForGREUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FECF701CB4C4F6002890EF /* Debug */,
+				03FECF711CB4C4F6002890EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FECF391CB4C4F6002890EF /* Project object */;
+}
