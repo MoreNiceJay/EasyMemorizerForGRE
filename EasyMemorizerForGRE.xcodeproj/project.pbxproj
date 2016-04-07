@@ -9,11 +9,194 @@
 /* Begin PBXBuildFile section */
 		03FECF451CB4C4F6002890EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF441CB4C4F6002890EF /* AppDelegate.swift */; };
 		03FECF471CB4C4F6002890EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF461CB4C4F6002890EF /* ViewController.swift */; };
-		03FECF4A1CB4C4F6002890EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF481CB4C4F6002890EF /* Main.storyboard */; };
 		03FECF4C1CB4C4F6002890EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF4B1CB4C4F6002890EF /* Assets.xcassets */; };
 		03FECF4F1CB4C4F6002890EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF4D1CB4C4F6002890EF /* LaunchScreen.storyboard */; };
 		03FECF5A1CB4C4F6002890EF /* EasyMemorizerForGRETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF591CB4C4F6002890EF /* EasyMemorizerForGRETests.swift */; };
 		03FECF651CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF641CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift */; };
+		03FECF731CB4C652002890EF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF721CB4C652002890EF /* Model.swift */; };
+		03FECF751CB4F7C8002890EF /* DailyVocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FECF741CB4F7C8002890EF /* DailyVocab.swift */; };
+		03FECF781CB50186002890EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF761CB50186002890EF /* Main.storyboard */; };
+		03FECFD51CB53CCB002890EF /* abandon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF7B1CB53CCA002890EF /* abandon.mp3 */; };
+		03FECFD61CB53CCB002890EF /* abase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF7C1CB53CCA002890EF /* abase.mp3 */; };
+		03FECFD71CB53CCB002890EF /* abash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF7D1CB53CCA002890EF /* abash.mp3 */; };
+		03FECFD81CB53CCB002890EF /* abate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF7E1CB53CCA002890EF /* abate.mp3 */; };
+		03FECFD91CB53CCB002890EF /* abbreviate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF7F1CB53CCA002890EF /* abbreviate.mp3 */; };
+		03FECFDA1CB53CCB002890EF /* abdicate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF801CB53CCA002890EF /* abdicate.mp3 */; };
+		03FECFDB1CB53CCB002890EF /* aberrant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF811CB53CCA002890EF /* aberrant.mp3 */; };
+		03FECFDC1CB53CCB002890EF /* abet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF821CB53CCA002890EF /* abet.mp3 */; };
+		03FECFDD1CB53CCB002890EF /* abeyance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF831CB53CCA002890EF /* abeyance.mp3 */; };
+		03FECFDE1CB53CCB002890EF /* abject.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF841CB53CCA002890EF /* abject.mp3 */; };
+		03FECFDF1CB53CCB002890EF /* abjure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF851CB53CCA002890EF /* abjure.mp3 */; };
+		03FECFE01CB53CCB002890EF /* abrade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF861CB53CCA002890EF /* abrade.mp3 */; };
+		03FECFE11CB53CCB002890EF /* abreast_of.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF871CB53CCA002890EF /* abreast_of.mp3 */; };
+		03FECFE21CB53CCB002890EF /* abridge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF881CB53CCA002890EF /* abridge.mp3 */; };
+		03FECFE31CB53CCB002890EF /* abrogate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF891CB53CCA002890EF /* abrogate.mp3 */; };
+		03FECFE41CB53CCB002890EF /* absolve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF8A1CB53CCA002890EF /* absolve.mp3 */; };
+		03FECFE51CB53CCB002890EF /* abstain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF8B1CB53CCA002890EF /* abstain.mp3 */; };
+		03FECFE61CB53CCB002890EF /* abstemious.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF8C1CB53CCA002890EF /* abstemious.mp3 */; };
+		03FECFE71CB53CCB002890EF /* abstract.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF8D1CB53CCA002890EF /* abstract.mp3 */; };
+		03FECFE81CB53CCB002890EF /* abstruse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF8E1CB53CCA002890EF /* abstruse.mp3 */; };
+		03FECFE91CB53CCB002890EF /* abysmal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF8F1CB53CCA002890EF /* abysmal.mp3 */; };
+		03FECFEA1CB53CCB002890EF /* accede.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF901CB53CCA002890EF /* accede.mp3 */; };
+		03FECFEB1CB53CCB002890EF /* accelerate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF911CB53CCA002890EF /* accelerate.mp3 */; };
+		03FECFEC1CB53CCB002890EF /* accessible.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF921CB53CCA002890EF /* accessible.mp3 */; };
+		03FECFED1CB53CCB002890EF /* acclaim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF931CB53CCA002890EF /* acclaim.mp3 */; };
+		03FECFEE1CB53CCB002890EF /* acclimate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF941CB53CCA002890EF /* acclimate.mp3 */; };
+		03FECFEF1CB53CCB002890EF /* accolade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF951CB53CCA002890EF /* accolade.mp3 */; };
+		03FECFF01CB53CCB002890EF /* accord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF961CB53CCA002890EF /* accord.mp3 */; };
+		03FECFF11CB53CCB002890EF /* accountable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF971CB53CCA002890EF /* accountable.mp3 */; };
+		03FECFF21CB53CCB002890EF /* accrete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF981CB53CCA002890EF /* accrete.mp3 */; };
+		03FECFF31CB53CCB002890EF /* accrue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF991CB53CCA002890EF /* accrue.mp3 */; };
+		03FECFF41CB53CCB002890EF /* acerbic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF9A1CB53CCA002890EF /* acerbic.mp3 */; };
+		03FECFF51CB53CCB002890EF /* acknowledge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF9B1CB53CCA002890EF /* acknowledge.mp3 */; };
+		03FECFF61CB53CCB002890EF /* acme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF9C1CB53CCA002890EF /* acme.mp3 */; };
+		03FECFF71CB53CCB002890EF /* acolyte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF9D1CB53CCA002890EF /* acolyte.mp3 */; };
+		03FECFF81CB53CCB002890EF /* acoustics.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF9E1CB53CCA002890EF /* acoustics.mp3 */; };
+		03FECFF91CB53CCB002890EF /* acquiesce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECF9F1CB53CCA002890EF /* acquiesce.mp3 */; };
+		03FECFFA1CB53CCB002890EF /* acquit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA01CB53CCA002890EF /* acquit.mp3 */; };
+		03FECFFB1CB53CCB002890EF /* acrid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA11CB53CCA002890EF /* acrid.mp3 */; };
+		03FECFFC1CB53CCB002890EF /* acrimonious.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA21CB53CCA002890EF /* acrimonious.mp3 */; };
+		03FECFFD1CB53CCB002890EF /* acumen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA31CB53CCA002890EF /* acumen.mp3 */; };
+		03FECFFE1CB53CCB002890EF /* acute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA41CB53CCA002890EF /* acute.mp3 */; };
+		03FECFFF1CB53CCB002890EF /* adage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA51CB53CCA002890EF /* adage.mp3 */; };
+		03FED0001CB53CCB002890EF /* adamant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA61CB53CCA002890EF /* adamant.mp3 */; };
+		03FED0011CB53CCB002890EF /* adapt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA71CB53CCA002890EF /* adapt.mp3 */; };
+		03FED0021CB53CCB002890EF /* adduce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA81CB53CCA002890EF /* adduce.mp3 */; };
+		03FED0031CB53CCB002890EF /* adept.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFA91CB53CCA002890EF /* adept.mp3 */; };
+		03FED0041CB53CCB002890EF /* adequate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFAA1CB53CCA002890EF /* adequate.mp3 */; };
+		03FED0051CB53CCB002890EF /* adherent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFAB1CB53CCA002890EF /* adherent.mp3 */; };
+		03FED0061CB53CCB002890EF /* admonish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFAC1CB53CCA002890EF /* admonish.mp3 */; };
+		03FED0071CB53CCB002890EF /* adolescent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFAD1CB53CCA002890EF /* adolescent.mp3 */; };
+		03FED0081CB53CCB002890EF /* adorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFAE1CB53CCA002890EF /* adorn.mp3 */; };
+		03FED0091CB53CCB002890EF /* adrift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFAF1CB53CCA002890EF /* adrift.mp3 */; };
+		03FED00A1CB53CCB002890EF /* adroit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB01CB53CCA002890EF /* adroit.mp3 */; };
+		03FED00B1CB53CCB002890EF /* adulation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB11CB53CCA002890EF /* adulation.mp3 */; };
+		03FED00C1CB53CCB002890EF /* adulterate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB21CB53CCA002890EF /* adulterate.mp3 */; };
+		03FED00D1CB53CCB002890EF /* adumbrate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB31CB53CCA002890EF /* adumbrate.mp3 */; };
+		03FED00E1CB53CCB002890EF /* advent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB41CB53CCA002890EF /* advent.mp3 */; };
+		03FED00F1CB53CCB002890EF /* adversary.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB51CB53CCA002890EF /* adversary.mp3 */; };
+		03FED0101CB53CCB002890EF /* adversity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB61CB53CCA002890EF /* adversity.mp3 */; };
+		03FED0111CB53CCB002890EF /* advocate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB71CB53CCA002890EF /* advocate.mp3 */; };
+		03FED0121CB53CCB002890EF /* aesthetic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB81CB53CCA002890EF /* aesthetic.mp3 */; };
+		03FED0131CB53CCB002890EF /* affect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFB91CB53CCA002890EF /* affect.mp3 */; };
+		03FED0141CB53CCB002890EF /* affiliate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFBA1CB53CCA002890EF /* affiliate.mp3 */; };
+		03FED0151CB53CCB002890EF /* affinity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFBB1CB53CCA002890EF /* affinity.mp3 */; };
+		03FED0161CB53CCB002890EF /* affirm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFBC1CB53CCA002890EF /* affirm.mp3 */; };
+		03FED0171CB53CCB002890EF /* afflict.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFBD1CB53CCA002890EF /* afflict.mp3 */; };
+		03FED0181CB53CCB002890EF /* affluent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFBE1CB53CCA002890EF /* affluent.mp3 */; };
+		03FED0191CB53CCB002890EF /* affront.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFBF1CB53CCA002890EF /* affront.mp3 */; };
+		03FED01A1CB53CCB002890EF /* aggrandize.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC01CB53CCA002890EF /* aggrandize.mp3 */; };
+		03FED01B1CB53CCB002890EF /* aggravate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC11CB53CCA002890EF /* aggravate.mp3 */; };
+		03FED01C1CB53CCB002890EF /* aggregate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC21CB53CCA002890EF /* aggregate.mp3 */; };
+		03FED01D1CB53CCB002890EF /* aggrieved.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC31CB53CCA002890EF /* aggrieved.mp3 */; };
+		03FED01E1CB53CCB002890EF /* agile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC41CB53CCA002890EF /* agile.mp3 */; };
+		03FED01F1CB53CCB002890EF /* agitate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC51CB53CCB002890EF /* agitate.mp3 */; };
+		03FED0201CB53CCB002890EF /* agog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC61CB53CCB002890EF /* agog.mp3 */; };
+		03FED0211CB53CCB002890EF /* agony.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC71CB53CCB002890EF /* agony.mp3 */; };
+		03FED0221CB53CCB002890EF /* ailing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC81CB53CCB002890EF /* ailing.mp3 */; };
+		03FED0231CB53CCB002890EF /* alacrity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFC91CB53CCB002890EF /* alacrity.mp3 */; };
+		03FED0241CB53CCB002890EF /* albeit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFCA1CB53CCB002890EF /* albeit.mp3 */; };
+		03FED0251CB53CCB002890EF /* alienate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFCB1CB53CCB002890EF /* alienate.mp3 */; };
+		03FED0261CB53CCB002890EF /* align.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFCC1CB53CCB002890EF /* align.mp3 */; };
+		03FED0271CB53CCB002890EF /* allay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFCD1CB53CCB002890EF /* allay.mp3 */; };
+		03FED0281CB53CCB002890EF /* alleviate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFCE1CB53CCB002890EF /* alleviate.mp3 */; };
+		03FED0291CB53CCB002890EF /* allocate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFCF1CB53CCB002890EF /* allocate.mp3 */; };
+		03FED02A1CB53CCB002890EF /* alloy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFD01CB53CCB002890EF /* alloy.mp3 */; };
+		03FED02B1CB53CCB002890EF /* allude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFD11CB53CCB002890EF /* allude.mp3 */; };
+		03FED02C1CB53CCB002890EF /* aloof.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFD21CB53CCB002890EF /* aloof.mp3 */; };
+		03FED02D1CB53CCB002890EF /* altruistic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFD31CB53CCB002890EF /* altruistic.mp3 */; };
+		03FED02E1CB53CCB002890EF /* amalgamate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FECFD41CB53CCB002890EF /* amalgamate.mp3 */; };
+		03FED0331CB5474B002890EF /* affable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0321CB5474B002890EF /* affable.mp3 */; };
+		03FED0351CB54818002890EF /* affiliate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0341CB54818002890EF /* affiliate.mp3 */; };
+		03FED04C1CB557C3002890EF /* amity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0361CB557C3002890EF /* amity.mp3 */; };
+		03FED04D1CB557C3002890EF /* amorphous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0371CB557C3002890EF /* amorphous.mp3 */; };
+		03FED04E1CB557C3002890EF /* anachronistic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0381CB557C3002890EF /* anachronistic.mp3 */; };
+		03FED04F1CB557C3002890EF /* analgesic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0391CB557C3002890EF /* analgesic.mp3 */; };
+		03FED0501CB557C3002890EF /* analogous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED03A1CB557C3002890EF /* analogous.mp3 */; };
+		03FED0511CB557C3002890EF /* anathema.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED03B1CB557C3002890EF /* anathema.mp3 */; };
+		03FED0521CB557C3002890EF /* ancillary.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED03C1CB557C3002890EF /* ancillary.mp3 */; };
+		03FED0531CB557C3002890EF /* animadversion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED03D1CB557C3002890EF /* animadversion.mp3 */; };
+		03FED0541CB557C3002890EF /* animated.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED03E1CB557C3002890EF /* animated.mp3 */; };
+		03FED0551CB557C3002890EF /* animosity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED03F1CB557C3002890EF /* animosity.mp3 */; };
+		03FED0561CB557C3002890EF /* annotate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0401CB557C3002890EF /* annotate.mp3 */; };
+		03FED0571CB557C3002890EF /* annul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0411CB557C3002890EF /* annul.mp3 */; };
+		03FED0581CB557C3002890EF /* anomalous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0421CB557C3002890EF /* anomalous.mp3 */; };
+		03FED0591CB557C3002890EF /* anonymous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0431CB557C3002890EF /* anonymous.mp3 */; };
+		03FED05A1CB557C3002890EF /* antecede.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0441CB557C3002890EF /* antecede.mp3 */; };
+		03FED05B1CB557C3002890EF /* antedate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0451CB557C3002890EF /* antedate.mp3 */; };
+		03FED05C1CB557C3002890EF /* anthropomorphism.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0461CB557C3002890EF /* anthropomorphism.mp3 */; };
+		03FED05D1CB557C3002890EF /* antidote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0471CB557C3002890EF /* antidote.mp3 */; };
+		03FED05E1CB557C3002890EF /* antipathy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0481CB557C3002890EF /* antipathy.mp3 */; };
+		03FED05F1CB557C3002890EF /* antiquated.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0491CB557C3002890EF /* antiquated.mp3 */; };
+		03FED0601CB557C3002890EF /* antithesis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED04A1CB557C3002890EF /* antithesis.mp3 */; };
+		03FED0611CB557C3002890EF /* antithetical.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED04B1CB557C3002890EF /* antithetical.mp3 */; };
+		03FED06B1CB559BA002890EF /* amass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0621CB559BA002890EF /* amass.mp3 */; };
+		03FED06C1CB559BA002890EF /* ambiguous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0631CB559BA002890EF /* ambiguous.mp3 */; };
+		03FED06D1CB559BA002890EF /* ambivalent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0641CB559BA002890EF /* ambivalent.mp3 */; };
+		03FED06E1CB559BA002890EF /* amble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0651CB559BA002890EF /* amble.mp3 */; };
+		03FED06F1CB559BA002890EF /* ameliorate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0661CB559BA002890EF /* ameliorate.mp3 */; };
+		03FED0701CB559BA002890EF /* amenable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0671CB559BA002890EF /* amenable.mp3 */; };
+		03FED0711CB559BA002890EF /* amend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0681CB559BA002890EF /* amend.mp3 */; };
+		03FED0721CB559BA002890EF /* amenity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0691CB559BA002890EF /* amenity.mp3 */; };
+		03FED0731CB559BA002890EF /* amiable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED06A1CB559BA002890EF /* amiable.mp3 */; };
+		03FED0901CB5EBC9002890EF /* apathetic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0741CB5EBC9002890EF /* apathetic.mp3 */; };
+		03FED0911CB5EBC9002890EF /* apathy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0751CB5EBC9002890EF /* apathy.mp3 */; };
+		03FED0921CB5EBC9002890EF /* apex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0761CB5EBC9002890EF /* apex.mp3 */; };
+		03FED0931CB5EBC9002890EF /* aphorism.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0771CB5EBC9002890EF /* aphorism.mp3 */; };
+		03FED0941CB5EBC9002890EF /* apocalyptic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0781CB5EBC9002890EF /* apocalyptic.mp3 */; };
+		03FED0951CB5EBC9002890EF /* apocryphal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0791CB5EBC9002890EF /* apocryphal.mp3 */; };
+		03FED0961CB5EBC9002890EF /* apologist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED07A1CB5EBC9002890EF /* apologist.mp3 */; };
+		03FED0971CB5EBC9002890EF /* apostate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED07B1CB5EBC9002890EF /* apostate.mp3 */; };
+		03FED0981CB5EBC9002890EF /* appall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED07C1CB5EBC9002890EF /* appall.mp3 */; };
+		03FED0991CB5EBC9002890EF /* apparition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED07D1CB5EBC9002890EF /* apparition.mp3 */; };
+		03FED09A1CB5EBC9002890EF /* appease.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED07E1CB5EBC9002890EF /* appease.mp3 */; };
+		03FED09B1CB5EBC9002890EF /* apposite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED07F1CB5EBC9002890EF /* apposite.mp3 */; };
+		03FED09C1CB5EBC9002890EF /* appraise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0801CB5EBC9002890EF /* appraise.mp3 */; };
+		03FED09D1CB5EBC9002890EF /* appreciable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0811CB5EBC9002890EF /* appreciable.mp3 */; };
+		03FED09F1CB5EBC9002890EF /* apprehend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0831CB5EBC9002890EF /* apprehend.mp3 */; };
+		03FED0A01CB5EBC9002890EF /* apprehensive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0841CB5EBC9002890EF /* apprehensive.mp3 */; };
+		03FED0A11CB5EBC9002890EF /* apprise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0851CB5EBC9002890EF /* apprise.mp3 */; };
+		03FED0A21CB5EBC9002890EF /* approbation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0861CB5EBC9002890EF /* approbation.mp3 */; };
+		03FED0A31CB5EBC9002890EF /* appropriate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0871CB5EBC9002890EF /* appropriate.mp3 */; };
+		03FED0A41CB5EBC9002890EF /* approve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0881CB5EBC9002890EF /* approve.mp3 */; };
+		03FED0A51CB5EBC9002890EF /* apropos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0891CB5EBC9002890EF /* apropos.mp3 */; };
+		03FED0A61CB5EBC9002890EF /* arable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED08A1CB5EBC9002890EF /* arable.mp3 */; };
+		03FED0A71CB5EBC9002890EF /* arbiter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED08B1CB5EBC9002890EF /* arbiter.mp3 */; };
+		03FED0A81CB5EBC9002890EF /* arbitrary.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED08C1CB5EBC9002890EF /* arbitrary.mp3 */; };
+		03FED0A91CB5EBC9002890EF /* arbitrate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED08D1CB5EBC9002890EF /* arbitrate.mp3 */; };
+		03FED0AA1CB5EBC9002890EF /* arcane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED08E1CB5EBC9002890EF /* arcane.mp3 */; };
+		03FED0AB1CB5EBC9002890EF /* archaic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED08F1CB5EBC9002890EF /* archaic.mp3 */; };
+		03FED0AD1CB5ED99002890EF /* appreciate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0AC1CB5ED99002890EF /* appreciate.mp3 */; };
+		03FED0CC1CB6ABA7002890EF /* archetype.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0AE1CB6ABA6002890EF /* archetype.mp3 */; };
+		03FED0CD1CB6ABA7002890EF /* ardent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0AF1CB6ABA7002890EF /* ardent.mp3 */; };
+		03FED0CE1CB6ABA7002890EF /* ardor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B01CB6ABA7002890EF /* ardor.mp3 */; };
+		03FED0CF1CB6ABA7002890EF /* arduous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B11CB6ABA7002890EF /* arduous.mp3 */; };
+		03FED0D01CB6ABA7002890EF /* arid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B21CB6ABA7002890EF /* arid.mp3 */; };
+		03FED0D11CB6ABA7002890EF /* arrest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B31CB6ABA7002890EF /* arrest.mp3 */; };
+		03FED0D21CB6ABA7002890EF /* arrogant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B41CB6ABA7002890EF /* arrogant.mp3 */; };
+		03FED0D31CB6ABA7002890EF /* articulate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B51CB6ABA7002890EF /* articulate.mp3 */; };
+		03FED0D41CB6ABA7002890EF /* artless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B61CB6ABA7002890EF /* artless.mp3 */; };
+		03FED0D51CB6ABA7002890EF /* ascertain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B71CB6ABA7002890EF /* ascertain.mp3 */; };
+		03FED0D61CB6ABA7002890EF /* ascetic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B81CB6ABA7002890EF /* ascetic.mp3 */; };
+		03FED0D71CB6ABA7002890EF /* asperity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0B91CB6ABA7002890EF /* asperity.mp3 */; };
+		03FED0D81CB6ABA7002890EF /* aspersion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0BA1CB6ABA7002890EF /* aspersion.mp3 */; };
+		03FED0D91CB6ABA7002890EF /* aspiration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0BB1CB6ABA7002890EF /* aspiration.mp3 */; };
+		03FED0DA1CB6ABA7002890EF /* assail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0BC1CB6ABA7002890EF /* assail.mp3 */; };
+		03FED0DB1CB6ABA7002890EF /* assendancy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0BD1CB6ABA7002890EF /* assendancy.mp3 */; };
+		03FED0DC1CB6ABA7002890EF /* assent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0BE1CB6ABA7002890EF /* assent.mp3 */; };
+		03FED0DD1CB6ABA7002890EF /* assert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0BF1CB6ABA7002890EF /* assert.mp3 */; };
+		03FED0DE1CB6ABA7002890EF /* assess.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C01CB6ABA7002890EF /* assess.mp3 */; };
+		03FED0DF1CB6ABA7002890EF /* assiduous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C11CB6ABA7002890EF /* assiduous.mp3 */; };
+		03FED0E01CB6ABA7002890EF /* assimilate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C21CB6ABA7002890EF /* assimilate.mp3 */; };
+		03FED0E11CB6ABA7002890EF /* assorted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C31CB6ABA7002890EF /* assorted.mp3 */; };
+		03FED0E21CB6ABA7002890EF /* assuage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C41CB6ABA7002890EF /* assuage.mp3 */; };
+		03FED0E31CB6ABA7002890EF /* assume.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C51CB6ABA7002890EF /* assume.mp3 */; };
+		03FED0E41CB6ABA7002890EF /* astringent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C61CB6ABA7002890EF /* astringent.mp3 */; };
+		03FED0E51CB6ABA7002890EF /* astute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C71CB6ABA7002890EF /* astute.mp3 */; };
+		03FED0E61CB6ABA7002890EF /* asylum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C81CB6ABA7002890EF /* asylum.mp3 */; };
+		03FED0E71CB6ABA7002890EF /* atone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0C91CB6ABA7002890EF /* atone.mp3 */; };
+		03FED0E81CB6ABA7002890EF /* atrocious.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0CA1CB6ABA7002890EF /* atrocious.mp3 */; };
+		03FED0E91CB6ABA7002890EF /* atrophy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03FED0CB1CB6ABA7002890EF /* atrophy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +220,6 @@
 		03FECF411CB4C4F6002890EF /* EasyMemorizerForGRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMemorizerForGRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FECF441CB4C4F6002890EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FECF461CB4C4F6002890EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03FECF491CB4C4F6002890EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03FECF4B1CB4C4F6002890EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03FECF4E1CB4C4F6002890EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03FECF501CB4C4F6002890EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +229,190 @@
 		03FECF601CB4C4F6002890EF /* EasyMemorizerForGREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMemorizerForGREUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FECF641CB4C4F6002890EF /* EasyMemorizerForGREUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMemorizerForGREUITests.swift; sourceTree = "<group>"; };
 		03FECF661CB4C4F6002890EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FECF721CB4C652002890EF /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		03FECF741CB4F7C8002890EF /* DailyVocab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyVocab.swift; sourceTree = "<group>"; };
+		03FECF771CB50186002890EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = EasyMemorizerForGRE/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03FECF7B1CB53CCA002890EF /* abandon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abandon.mp3; path = day1_mp3/abandon.mp3; sourceTree = "<group>"; };
+		03FECF7C1CB53CCA002890EF /* abase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abase.mp3; path = day1_mp3/abase.mp3; sourceTree = "<group>"; };
+		03FECF7D1CB53CCA002890EF /* abash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abash.mp3; path = day1_mp3/abash.mp3; sourceTree = "<group>"; };
+		03FECF7E1CB53CCA002890EF /* abate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abate.mp3; path = day1_mp3/abate.mp3; sourceTree = "<group>"; };
+		03FECF7F1CB53CCA002890EF /* abbreviate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abbreviate.mp3; path = day1_mp3/abbreviate.mp3; sourceTree = "<group>"; };
+		03FECF801CB53CCA002890EF /* abdicate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abdicate.mp3; path = day1_mp3/abdicate.mp3; sourceTree = "<group>"; };
+		03FECF811CB53CCA002890EF /* aberrant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aberrant.mp3; path = day1_mp3/aberrant.mp3; sourceTree = "<group>"; };
+		03FECF821CB53CCA002890EF /* abet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abet.mp3; path = day1_mp3/abet.mp3; sourceTree = "<group>"; };
+		03FECF831CB53CCA002890EF /* abeyance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abeyance.mp3; path = day1_mp3/abeyance.mp3; sourceTree = "<group>"; };
+		03FECF841CB53CCA002890EF /* abject.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abject.mp3; path = day1_mp3/abject.mp3; sourceTree = "<group>"; };
+		03FECF851CB53CCA002890EF /* abjure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abjure.mp3; path = day1_mp3/abjure.mp3; sourceTree = "<group>"; };
+		03FECF861CB53CCA002890EF /* abrade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abrade.mp3; path = day1_mp3/abrade.mp3; sourceTree = "<group>"; };
+		03FECF871CB53CCA002890EF /* abreast_of.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abreast_of.mp3; path = day1_mp3/abreast_of.mp3; sourceTree = "<group>"; };
+		03FECF881CB53CCA002890EF /* abridge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abridge.mp3; path = day1_mp3/abridge.mp3; sourceTree = "<group>"; };
+		03FECF891CB53CCA002890EF /* abrogate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abrogate.mp3; path = day1_mp3/abrogate.mp3; sourceTree = "<group>"; };
+		03FECF8A1CB53CCA002890EF /* absolve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = absolve.mp3; path = day1_mp3/absolve.mp3; sourceTree = "<group>"; };
+		03FECF8B1CB53CCA002890EF /* abstain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abstain.mp3; path = day1_mp3/abstain.mp3; sourceTree = "<group>"; };
+		03FECF8C1CB53CCA002890EF /* abstemious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abstemious.mp3; path = day1_mp3/abstemious.mp3; sourceTree = "<group>"; };
+		03FECF8D1CB53CCA002890EF /* abstract.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abstract.mp3; path = day1_mp3/abstract.mp3; sourceTree = "<group>"; };
+		03FECF8E1CB53CCA002890EF /* abstruse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abstruse.mp3; path = day1_mp3/abstruse.mp3; sourceTree = "<group>"; };
+		03FECF8F1CB53CCA002890EF /* abysmal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = abysmal.mp3; path = day1_mp3/abysmal.mp3; sourceTree = "<group>"; };
+		03FECF901CB53CCA002890EF /* accede.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accede.mp3; path = day1_mp3/accede.mp3; sourceTree = "<group>"; };
+		03FECF911CB53CCA002890EF /* accelerate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accelerate.mp3; path = day1_mp3/accelerate.mp3; sourceTree = "<group>"; };
+		03FECF921CB53CCA002890EF /* accessible.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accessible.mp3; path = day1_mp3/accessible.mp3; sourceTree = "<group>"; };
+		03FECF931CB53CCA002890EF /* acclaim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acclaim.mp3; path = day1_mp3/acclaim.mp3; sourceTree = "<group>"; };
+		03FECF941CB53CCA002890EF /* acclimate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acclimate.mp3; path = day1_mp3/acclimate.mp3; sourceTree = "<group>"; };
+		03FECF951CB53CCA002890EF /* accolade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accolade.mp3; path = day1_mp3/accolade.mp3; sourceTree = "<group>"; };
+		03FECF961CB53CCA002890EF /* accord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accord.mp3; path = day1_mp3/accord.mp3; sourceTree = "<group>"; };
+		03FECF971CB53CCA002890EF /* accountable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accountable.mp3; path = day1_mp3/accountable.mp3; sourceTree = "<group>"; };
+		03FECF981CB53CCA002890EF /* accrete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accrete.mp3; path = day1_mp3/accrete.mp3; sourceTree = "<group>"; };
+		03FECF991CB53CCA002890EF /* accrue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accrue.mp3; path = day1_mp3/accrue.mp3; sourceTree = "<group>"; };
+		03FECF9A1CB53CCA002890EF /* acerbic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acerbic.mp3; path = day1_mp3/acerbic.mp3; sourceTree = "<group>"; };
+		03FECF9B1CB53CCA002890EF /* acknowledge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acknowledge.mp3; path = day1_mp3/acknowledge.mp3; sourceTree = "<group>"; };
+		03FECF9C1CB53CCA002890EF /* acme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acme.mp3; path = day1_mp3/acme.mp3; sourceTree = "<group>"; };
+		03FECF9D1CB53CCA002890EF /* acolyte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acolyte.mp3; path = day1_mp3/acolyte.mp3; sourceTree = "<group>"; };
+		03FECF9E1CB53CCA002890EF /* acoustics.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acoustics.mp3; path = day1_mp3/acoustics.mp3; sourceTree = "<group>"; };
+		03FECF9F1CB53CCA002890EF /* acquiesce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acquiesce.mp3; path = day1_mp3/acquiesce.mp3; sourceTree = "<group>"; };
+		03FECFA01CB53CCA002890EF /* acquit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acquit.mp3; path = day1_mp3/acquit.mp3; sourceTree = "<group>"; };
+		03FECFA11CB53CCA002890EF /* acrid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acrid.mp3; path = day1_mp3/acrid.mp3; sourceTree = "<group>"; };
+		03FECFA21CB53CCA002890EF /* acrimonious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acrimonious.mp3; path = day1_mp3/acrimonious.mp3; sourceTree = "<group>"; };
+		03FECFA31CB53CCA002890EF /* acumen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acumen.mp3; path = day1_mp3/acumen.mp3; sourceTree = "<group>"; };
+		03FECFA41CB53CCA002890EF /* acute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = acute.mp3; path = day1_mp3/acute.mp3; sourceTree = "<group>"; };
+		03FECFA51CB53CCA002890EF /* adage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adage.mp3; path = day1_mp3/adage.mp3; sourceTree = "<group>"; };
+		03FECFA61CB53CCA002890EF /* adamant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adamant.mp3; path = day1_mp3/adamant.mp3; sourceTree = "<group>"; };
+		03FECFA71CB53CCA002890EF /* adapt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adapt.mp3; path = day1_mp3/adapt.mp3; sourceTree = "<group>"; };
+		03FECFA81CB53CCA002890EF /* adduce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adduce.mp3; path = day1_mp3/adduce.mp3; sourceTree = "<group>"; };
+		03FECFA91CB53CCA002890EF /* adept.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adept.mp3; path = day1_mp3/adept.mp3; sourceTree = "<group>"; };
+		03FECFAA1CB53CCA002890EF /* adequate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adequate.mp3; path = day1_mp3/adequate.mp3; sourceTree = "<group>"; };
+		03FECFAB1CB53CCA002890EF /* adherent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adherent.mp3; path = day1_mp3/adherent.mp3; sourceTree = "<group>"; };
+		03FECFAC1CB53CCA002890EF /* admonish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = admonish.mp3; path = day1_mp3/admonish.mp3; sourceTree = "<group>"; };
+		03FECFAD1CB53CCA002890EF /* adolescent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adolescent.mp3; path = day1_mp3/adolescent.mp3; sourceTree = "<group>"; };
+		03FECFAE1CB53CCA002890EF /* adorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adorn.mp3; path = day1_mp3/adorn.mp3; sourceTree = "<group>"; };
+		03FECFAF1CB53CCA002890EF /* adrift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adrift.mp3; path = day1_mp3/adrift.mp3; sourceTree = "<group>"; };
+		03FECFB01CB53CCA002890EF /* adroit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adroit.mp3; path = day1_mp3/adroit.mp3; sourceTree = "<group>"; };
+		03FECFB11CB53CCA002890EF /* adulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adulation.mp3; path = day1_mp3/adulation.mp3; sourceTree = "<group>"; };
+		03FECFB21CB53CCA002890EF /* adulterate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adulterate.mp3; path = day1_mp3/adulterate.mp3; sourceTree = "<group>"; };
+		03FECFB31CB53CCA002890EF /* adumbrate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adumbrate.mp3; path = day1_mp3/adumbrate.mp3; sourceTree = "<group>"; };
+		03FECFB41CB53CCA002890EF /* advent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = advent.mp3; path = day1_mp3/advent.mp3; sourceTree = "<group>"; };
+		03FECFB51CB53CCA002890EF /* adversary.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adversary.mp3; path = day1_mp3/adversary.mp3; sourceTree = "<group>"; };
+		03FECFB61CB53CCA002890EF /* adversity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = adversity.mp3; path = day1_mp3/adversity.mp3; sourceTree = "<group>"; };
+		03FECFB71CB53CCA002890EF /* advocate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = advocate.mp3; path = day1_mp3/advocate.mp3; sourceTree = "<group>"; };
+		03FECFB81CB53CCA002890EF /* aesthetic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aesthetic.mp3; path = day1_mp3/aesthetic.mp3; sourceTree = "<group>"; };
+		03FECFB91CB53CCA002890EF /* affect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = affect.mp3; path = day1_mp3/affect.mp3; sourceTree = "<group>"; };
+		03FECFBA1CB53CCA002890EF /* affiliate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = affiliate.mp3; path = day1_mp3/affiliate.mp3; sourceTree = "<group>"; };
+		03FECFBB1CB53CCA002890EF /* affinity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = affinity.mp3; path = day1_mp3/affinity.mp3; sourceTree = "<group>"; };
+		03FECFBC1CB53CCA002890EF /* affirm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = affirm.mp3; path = day1_mp3/affirm.mp3; sourceTree = "<group>"; };
+		03FECFBD1CB53CCA002890EF /* afflict.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = afflict.mp3; path = day1_mp3/afflict.mp3; sourceTree = "<group>"; };
+		03FECFBE1CB53CCA002890EF /* affluent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = affluent.mp3; path = day1_mp3/affluent.mp3; sourceTree = "<group>"; };
+		03FECFBF1CB53CCA002890EF /* affront.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = affront.mp3; path = day1_mp3/affront.mp3; sourceTree = "<group>"; };
+		03FECFC01CB53CCA002890EF /* aggrandize.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aggrandize.mp3; path = day1_mp3/aggrandize.mp3; sourceTree = "<group>"; };
+		03FECFC11CB53CCA002890EF /* aggravate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aggravate.mp3; path = day1_mp3/aggravate.mp3; sourceTree = "<group>"; };
+		03FECFC21CB53CCA002890EF /* aggregate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aggregate.mp3; path = day1_mp3/aggregate.mp3; sourceTree = "<group>"; };
+		03FECFC31CB53CCA002890EF /* aggrieved.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aggrieved.mp3; path = day1_mp3/aggrieved.mp3; sourceTree = "<group>"; };
+		03FECFC41CB53CCA002890EF /* agile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = agile.mp3; path = day1_mp3/agile.mp3; sourceTree = "<group>"; };
+		03FECFC51CB53CCB002890EF /* agitate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = agitate.mp3; path = day1_mp3/agitate.mp3; sourceTree = "<group>"; };
+		03FECFC61CB53CCB002890EF /* agog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = agog.mp3; path = day1_mp3/agog.mp3; sourceTree = "<group>"; };
+		03FECFC71CB53CCB002890EF /* agony.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = agony.mp3; path = day1_mp3/agony.mp3; sourceTree = "<group>"; };
+		03FECFC81CB53CCB002890EF /* ailing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ailing.mp3; path = day1_mp3/ailing.mp3; sourceTree = "<group>"; };
+		03FECFC91CB53CCB002890EF /* alacrity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alacrity.mp3; path = day1_mp3/alacrity.mp3; sourceTree = "<group>"; };
+		03FECFCA1CB53CCB002890EF /* albeit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = albeit.mp3; path = day1_mp3/albeit.mp3; sourceTree = "<group>"; };
+		03FECFCB1CB53CCB002890EF /* alienate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alienate.mp3; path = day1_mp3/alienate.mp3; sourceTree = "<group>"; };
+		03FECFCC1CB53CCB002890EF /* align.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = align.mp3; path = day1_mp3/align.mp3; sourceTree = "<group>"; };
+		03FECFCD1CB53CCB002890EF /* allay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = allay.mp3; path = day1_mp3/allay.mp3; sourceTree = "<group>"; };
+		03FECFCE1CB53CCB002890EF /* alleviate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alleviate.mp3; path = day1_mp3/alleviate.mp3; sourceTree = "<group>"; };
+		03FECFCF1CB53CCB002890EF /* allocate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = allocate.mp3; path = day1_mp3/allocate.mp3; sourceTree = "<group>"; };
+		03FECFD01CB53CCB002890EF /* alloy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alloy.mp3; path = day1_mp3/alloy.mp3; sourceTree = "<group>"; };
+		03FECFD11CB53CCB002890EF /* allude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = allude.mp3; path = day1_mp3/allude.mp3; sourceTree = "<group>"; };
+		03FECFD21CB53CCB002890EF /* aloof.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aloof.mp3; path = day1_mp3/aloof.mp3; sourceTree = "<group>"; };
+		03FECFD31CB53CCB002890EF /* altruistic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = altruistic.mp3; path = day1_mp3/altruistic.mp3; sourceTree = "<group>"; };
+		03FECFD41CB53CCB002890EF /* amalgamate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = amalgamate.mp3; path = day1_mp3/amalgamate.mp3; sourceTree = "<group>"; };
+		03FED0321CB5474B002890EF /* affable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = affable.mp3; sourceTree = "<group>"; };
+		03FED0341CB54818002890EF /* affiliate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = affiliate.mp3; sourceTree = "<group>"; };
+		03FED0361CB557C3002890EF /* amity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amity.mp3; sourceTree = "<group>"; };
+		03FED0371CB557C3002890EF /* amorphous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amorphous.mp3; sourceTree = "<group>"; };
+		03FED0381CB557C3002890EF /* anachronistic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = anachronistic.mp3; sourceTree = "<group>"; };
+		03FED0391CB557C3002890EF /* analgesic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = analgesic.mp3; sourceTree = "<group>"; };
+		03FED03A1CB557C3002890EF /* analogous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = analogous.mp3; sourceTree = "<group>"; };
+		03FED03B1CB557C3002890EF /* anathema.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = anathema.mp3; sourceTree = "<group>"; };
+		03FED03C1CB557C3002890EF /* ancillary.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ancillary.mp3; sourceTree = "<group>"; };
+		03FED03D1CB557C3002890EF /* animadversion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = animadversion.mp3; sourceTree = "<group>"; };
+		03FED03E1CB557C3002890EF /* animated.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = animated.mp3; sourceTree = "<group>"; };
+		03FED03F1CB557C3002890EF /* animosity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = animosity.mp3; sourceTree = "<group>"; };
+		03FED0401CB557C3002890EF /* annotate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = annotate.mp3; sourceTree = "<group>"; };
+		03FED0411CB557C3002890EF /* annul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = annul.mp3; sourceTree = "<group>"; };
+		03FED0421CB557C3002890EF /* anomalous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = anomalous.mp3; sourceTree = "<group>"; };
+		03FED0431CB557C3002890EF /* anonymous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = anonymous.mp3; sourceTree = "<group>"; };
+		03FED0441CB557C3002890EF /* antecede.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antecede.mp3; sourceTree = "<group>"; };
+		03FED0451CB557C3002890EF /* antedate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antedate.mp3; sourceTree = "<group>"; };
+		03FED0461CB557C3002890EF /* anthropomorphism.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = anthropomorphism.mp3; sourceTree = "<group>"; };
+		03FED0471CB557C3002890EF /* antidote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antidote.mp3; sourceTree = "<group>"; };
+		03FED0481CB557C3002890EF /* antipathy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antipathy.mp3; sourceTree = "<group>"; };
+		03FED0491CB557C3002890EF /* antiquated.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antiquated.mp3; sourceTree = "<group>"; };
+		03FED04A1CB557C3002890EF /* antithesis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antithesis.mp3; sourceTree = "<group>"; };
+		03FED04B1CB557C3002890EF /* antithetical.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = antithetical.mp3; sourceTree = "<group>"; };
+		03FED0621CB559BA002890EF /* amass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amass.mp3; sourceTree = "<group>"; };
+		03FED0631CB559BA002890EF /* ambiguous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ambiguous.mp3; sourceTree = "<group>"; };
+		03FED0641CB559BA002890EF /* ambivalent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ambivalent.mp3; sourceTree = "<group>"; };
+		03FED0651CB559BA002890EF /* amble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amble.mp3; sourceTree = "<group>"; };
+		03FED0661CB559BA002890EF /* ameliorate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ameliorate.mp3; sourceTree = "<group>"; };
+		03FED0671CB559BA002890EF /* amenable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amenable.mp3; sourceTree = "<group>"; };
+		03FED0681CB559BA002890EF /* amend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amend.mp3; sourceTree = "<group>"; };
+		03FED0691CB559BA002890EF /* amenity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amenity.mp3; sourceTree = "<group>"; };
+		03FED06A1CB559BA002890EF /* amiable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amiable.mp3; sourceTree = "<group>"; };
+		03FED0741CB5EBC9002890EF /* apathetic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apathetic.mp3; sourceTree = "<group>"; };
+		03FED0751CB5EBC9002890EF /* apathy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apathy.mp3; sourceTree = "<group>"; };
+		03FED0761CB5EBC9002890EF /* apex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apex.mp3; sourceTree = "<group>"; };
+		03FED0771CB5EBC9002890EF /* aphorism.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aphorism.mp3; sourceTree = "<group>"; };
+		03FED0781CB5EBC9002890EF /* apocalyptic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apocalyptic.mp3; sourceTree = "<group>"; };
+		03FED0791CB5EBC9002890EF /* apocryphal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apocryphal.mp3; sourceTree = "<group>"; };
+		03FED07A1CB5EBC9002890EF /* apologist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apologist.mp3; sourceTree = "<group>"; };
+		03FED07B1CB5EBC9002890EF /* apostate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apostate.mp3; sourceTree = "<group>"; };
+		03FED07C1CB5EBC9002890EF /* appall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appall.mp3; sourceTree = "<group>"; };
+		03FED07D1CB5EBC9002890EF /* apparition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apparition.mp3; sourceTree = "<group>"; };
+		03FED07E1CB5EBC9002890EF /* appease.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appease.mp3; sourceTree = "<group>"; };
+		03FED07F1CB5EBC9002890EF /* apposite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apposite.mp3; sourceTree = "<group>"; };
+		03FED0801CB5EBC9002890EF /* appraise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appraise.mp3; sourceTree = "<group>"; };
+		03FED0811CB5EBC9002890EF /* appreciable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appreciable.mp3; sourceTree = "<group>"; };
+		03FED0831CB5EBC9002890EF /* apprehend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apprehend.mp3; sourceTree = "<group>"; };
+		03FED0841CB5EBC9002890EF /* apprehensive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apprehensive.mp3; sourceTree = "<group>"; };
+		03FED0851CB5EBC9002890EF /* apprise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apprise.mp3; sourceTree = "<group>"; };
+		03FED0861CB5EBC9002890EF /* approbation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = approbation.mp3; sourceTree = "<group>"; };
+		03FED0871CB5EBC9002890EF /* appropriate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appropriate.mp3; sourceTree = "<group>"; };
+		03FED0881CB5EBC9002890EF /* approve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = approve.mp3; sourceTree = "<group>"; };
+		03FED0891CB5EBC9002890EF /* apropos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apropos.mp3; sourceTree = "<group>"; };
+		03FED08A1CB5EBC9002890EF /* arable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arable.mp3; sourceTree = "<group>"; };
+		03FED08B1CB5EBC9002890EF /* arbiter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arbiter.mp3; sourceTree = "<group>"; };
+		03FED08C1CB5EBC9002890EF /* arbitrary.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arbitrary.mp3; sourceTree = "<group>"; };
+		03FED08D1CB5EBC9002890EF /* arbitrate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arbitrate.mp3; sourceTree = "<group>"; };
+		03FED08E1CB5EBC9002890EF /* arcane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arcane.mp3; sourceTree = "<group>"; };
+		03FED08F1CB5EBC9002890EF /* archaic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = archaic.mp3; sourceTree = "<group>"; };
+		03FED0AC1CB5ED99002890EF /* appreciate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appreciate.mp3; sourceTree = "<group>"; };
+		03FED0AE1CB6ABA6002890EF /* archetype.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = archetype.mp3; sourceTree = "<group>"; };
+		03FED0AF1CB6ABA7002890EF /* ardent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ardent.mp3; sourceTree = "<group>"; };
+		03FED0B01CB6ABA7002890EF /* ardor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ardor.mp3; sourceTree = "<group>"; };
+		03FED0B11CB6ABA7002890EF /* arduous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arduous.mp3; sourceTree = "<group>"; };
+		03FED0B21CB6ABA7002890EF /* arid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arid.mp3; sourceTree = "<group>"; };
+		03FED0B31CB6ABA7002890EF /* arrest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arrest.mp3; sourceTree = "<group>"; };
+		03FED0B41CB6ABA7002890EF /* arrogant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arrogant.mp3; sourceTree = "<group>"; };
+		03FED0B51CB6ABA7002890EF /* articulate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = articulate.mp3; sourceTree = "<group>"; };
+		03FED0B61CB6ABA7002890EF /* artless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = artless.mp3; sourceTree = "<group>"; };
+		03FED0B71CB6ABA7002890EF /* ascertain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ascertain.mp3; sourceTree = "<group>"; };
+		03FED0B81CB6ABA7002890EF /* ascetic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ascetic.mp3; sourceTree = "<group>"; };
+		03FED0B91CB6ABA7002890EF /* asperity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = asperity.mp3; sourceTree = "<group>"; };
+		03FED0BA1CB6ABA7002890EF /* aspersion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aspersion.mp3; sourceTree = "<group>"; };
+		03FED0BB1CB6ABA7002890EF /* aspiration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aspiration.mp3; sourceTree = "<group>"; };
+		03FED0BC1CB6ABA7002890EF /* assail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assail.mp3; sourceTree = "<group>"; };
+		03FED0BD1CB6ABA7002890EF /* assendancy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assendancy.mp3; sourceTree = "<group>"; };
+		03FED0BE1CB6ABA7002890EF /* assent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assent.mp3; sourceTree = "<group>"; };
+		03FED0BF1CB6ABA7002890EF /* assert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assert.mp3; sourceTree = "<group>"; };
+		03FED0C01CB6ABA7002890EF /* assess.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assess.mp3; sourceTree = "<group>"; };
+		03FED0C11CB6ABA7002890EF /* assiduous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assiduous.mp3; sourceTree = "<group>"; };
+		03FED0C21CB6ABA7002890EF /* assimilate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assimilate.mp3; sourceTree = "<group>"; };
+		03FED0C31CB6ABA7002890EF /* assorted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assorted.mp3; sourceTree = "<group>"; };
+		03FED0C41CB6ABA7002890EF /* assuage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assuage.mp3; sourceTree = "<group>"; };
+		03FED0C51CB6ABA7002890EF /* assume.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = assume.mp3; sourceTree = "<group>"; };
+		03FED0C61CB6ABA7002890EF /* astringent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = astringent.mp3; sourceTree = "<group>"; };
+		03FED0C71CB6ABA7002890EF /* astute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = astute.mp3; sourceTree = "<group>"; };
+		03FED0C81CB6ABA7002890EF /* asylum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = asylum.mp3; sourceTree = "<group>"; };
+		03FED0C91CB6ABA7002890EF /* atone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atone.mp3; sourceTree = "<group>"; };
+		03FED0CA1CB6ABA7002890EF /* atrocious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atrocious.mp3; sourceTree = "<group>"; };
+		03FED0CB1CB6ABA7002890EF /* atrophy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = atrophy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +465,10 @@
 			children = (
 				03FECF441CB4C4F6002890EF /* AppDelegate.swift */,
 				03FECF461CB4C4F6002890EF /* ViewController.swift */,
-				03FECF481CB4C4F6002890EF /* Main.storyboard */,
+				03FECF761CB50186002890EF /* Main.storyboard */,
+				03FECF741CB4F7C8002890EF /* DailyVocab.swift */,
+				03FECF721CB4C652002890EF /* Model.swift */,
+				03FED02F1CB53CDD002890EF /* mp3 */,
 				03FECF4B1CB4C4F6002890EF /* Assets.xcassets */,
 				03FECF4D1CB4C4F6002890EF /* LaunchScreen.storyboard */,
 				03FECF501CB4C4F6002890EF /* Info.plist */,
@@ -123,6 +492,194 @@
 				03FECF661CB4C4F6002890EF /* Info.plist */,
 			);
 			path = EasyMemorizerForGREUITests;
+			sourceTree = "<group>";
+		};
+		03FED02F1CB53CDD002890EF /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				03FECF7B1CB53CCA002890EF /* abandon.mp3 */,
+				03FECF7C1CB53CCA002890EF /* abase.mp3 */,
+				03FECF7D1CB53CCA002890EF /* abash.mp3 */,
+				03FECF7E1CB53CCA002890EF /* abate.mp3 */,
+				03FECF7F1CB53CCA002890EF /* abbreviate.mp3 */,
+				03FECF801CB53CCA002890EF /* abdicate.mp3 */,
+				03FECF811CB53CCA002890EF /* aberrant.mp3 */,
+				03FECF821CB53CCA002890EF /* abet.mp3 */,
+				03FECF831CB53CCA002890EF /* abeyance.mp3 */,
+				03FECF841CB53CCA002890EF /* abject.mp3 */,
+				03FECF851CB53CCA002890EF /* abjure.mp3 */,
+				03FECF861CB53CCA002890EF /* abrade.mp3 */,
+				03FECF871CB53CCA002890EF /* abreast_of.mp3 */,
+				03FED0741CB5EBC9002890EF /* apathetic.mp3 */,
+				03FED0751CB5EBC9002890EF /* apathy.mp3 */,
+				03FED0761CB5EBC9002890EF /* apex.mp3 */,
+				03FED0771CB5EBC9002890EF /* aphorism.mp3 */,
+				03FED0781CB5EBC9002890EF /* apocalyptic.mp3 */,
+				03FED0791CB5EBC9002890EF /* apocryphal.mp3 */,
+				03FED07A1CB5EBC9002890EF /* apologist.mp3 */,
+				03FED07B1CB5EBC9002890EF /* apostate.mp3 */,
+				03FED07C1CB5EBC9002890EF /* appall.mp3 */,
+				03FED07D1CB5EBC9002890EF /* apparition.mp3 */,
+				03FED07E1CB5EBC9002890EF /* appease.mp3 */,
+				03FED07F1CB5EBC9002890EF /* apposite.mp3 */,
+				03FED0801CB5EBC9002890EF /* appraise.mp3 */,
+				03FED0811CB5EBC9002890EF /* appreciable.mp3 */,
+				03FED0831CB5EBC9002890EF /* apprehend.mp3 */,
+				03FED0841CB5EBC9002890EF /* apprehensive.mp3 */,
+				03FED0851CB5EBC9002890EF /* apprise.mp3 */,
+				03FED0861CB5EBC9002890EF /* approbation.mp3 */,
+				03FED0871CB5EBC9002890EF /* appropriate.mp3 */,
+				03FED0AC1CB5ED99002890EF /* appreciate.mp3 */,
+				03FED0881CB5EBC9002890EF /* approve.mp3 */,
+				03FED0891CB5EBC9002890EF /* apropos.mp3 */,
+				03FED08A1CB5EBC9002890EF /* arable.mp3 */,
+				03FED08B1CB5EBC9002890EF /* arbiter.mp3 */,
+				03FED08C1CB5EBC9002890EF /* arbitrary.mp3 */,
+				03FED08D1CB5EBC9002890EF /* arbitrate.mp3 */,
+				03FED08E1CB5EBC9002890EF /* arcane.mp3 */,
+				03FED08F1CB5EBC9002890EF /* archaic.mp3 */,
+				03FECF881CB53CCA002890EF /* abridge.mp3 */,
+				03FECF891CB53CCA002890EF /* abrogate.mp3 */,
+				03FECF8A1CB53CCA002890EF /* absolve.mp3 */,
+				03FECF8B1CB53CCA002890EF /* abstain.mp3 */,
+				03FECF8C1CB53CCA002890EF /* abstemious.mp3 */,
+				03FECF8D1CB53CCA002890EF /* abstract.mp3 */,
+				03FECF8E1CB53CCA002890EF /* abstruse.mp3 */,
+				03FECF8F1CB53CCA002890EF /* abysmal.mp3 */,
+				03FECF901CB53CCA002890EF /* accede.mp3 */,
+				03FECF911CB53CCA002890EF /* accelerate.mp3 */,
+				03FECF921CB53CCA002890EF /* accessible.mp3 */,
+				03FECF931CB53CCA002890EF /* acclaim.mp3 */,
+				03FECF941CB53CCA002890EF /* acclimate.mp3 */,
+				03FECF951CB53CCA002890EF /* accolade.mp3 */,
+				03FECF961CB53CCA002890EF /* accord.mp3 */,
+				03FECF971CB53CCA002890EF /* accountable.mp3 */,
+				03FECF981CB53CCA002890EF /* accrete.mp3 */,
+				03FECF991CB53CCA002890EF /* accrue.mp3 */,
+				03FECF9A1CB53CCA002890EF /* acerbic.mp3 */,
+				03FECF9B1CB53CCA002890EF /* acknowledge.mp3 */,
+				03FECF9C1CB53CCA002890EF /* acme.mp3 */,
+				03FECF9D1CB53CCA002890EF /* acolyte.mp3 */,
+				03FECF9E1CB53CCA002890EF /* acoustics.mp3 */,
+				03FECF9F1CB53CCA002890EF /* acquiesce.mp3 */,
+				03FECFA01CB53CCA002890EF /* acquit.mp3 */,
+				03FECFA11CB53CCA002890EF /* acrid.mp3 */,
+				03FECFA21CB53CCA002890EF /* acrimonious.mp3 */,
+				03FECFA31CB53CCA002890EF /* acumen.mp3 */,
+				03FECFA41CB53CCA002890EF /* acute.mp3 */,
+				03FECFA51CB53CCA002890EF /* adage.mp3 */,
+				03FECFA61CB53CCA002890EF /* adamant.mp3 */,
+				03FECFA71CB53CCA002890EF /* adapt.mp3 */,
+				03FECFA81CB53CCA002890EF /* adduce.mp3 */,
+				03FECFA91CB53CCA002890EF /* adept.mp3 */,
+				03FECFAA1CB53CCA002890EF /* adequate.mp3 */,
+				03FECFAB1CB53CCA002890EF /* adherent.mp3 */,
+				03FECFAC1CB53CCA002890EF /* admonish.mp3 */,
+				03FECFAD1CB53CCA002890EF /* adolescent.mp3 */,
+				03FECFAE1CB53CCA002890EF /* adorn.mp3 */,
+				03FECFAF1CB53CCA002890EF /* adrift.mp3 */,
+				03FECFB01CB53CCA002890EF /* adroit.mp3 */,
+				03FECFB11CB53CCA002890EF /* adulation.mp3 */,
+				03FECFB21CB53CCA002890EF /* adulterate.mp3 */,
+				03FECFB31CB53CCA002890EF /* adumbrate.mp3 */,
+				03FECFB41CB53CCA002890EF /* advent.mp3 */,
+				03FECFB51CB53CCA002890EF /* adversary.mp3 */,
+				03FECFB61CB53CCA002890EF /* adversity.mp3 */,
+				03FECFB71CB53CCA002890EF /* advocate.mp3 */,
+				03FECFB81CB53CCA002890EF /* aesthetic.mp3 */,
+				03FECFB91CB53CCA002890EF /* affect.mp3 */,
+				03FECFBA1CB53CCA002890EF /* affiliate.mp3 */,
+				03FECFBB1CB53CCA002890EF /* affinity.mp3 */,
+				03FED0341CB54818002890EF /* affiliate.mp3 */,
+				03FECFBC1CB53CCA002890EF /* affirm.mp3 */,
+				03FECFBD1CB53CCA002890EF /* afflict.mp3 */,
+				03FED0321CB5474B002890EF /* affable.mp3 */,
+				03FECFBE1CB53CCA002890EF /* affluent.mp3 */,
+				03FECFBF1CB53CCA002890EF /* affront.mp3 */,
+				03FECFC01CB53CCA002890EF /* aggrandize.mp3 */,
+				03FECFC11CB53CCA002890EF /* aggravate.mp3 */,
+				03FECFC21CB53CCA002890EF /* aggregate.mp3 */,
+				03FECFC31CB53CCA002890EF /* aggrieved.mp3 */,
+				03FECFC41CB53CCA002890EF /* agile.mp3 */,
+				03FECFC51CB53CCB002890EF /* agitate.mp3 */,
+				03FECFC61CB53CCB002890EF /* agog.mp3 */,
+				03FECFC71CB53CCB002890EF /* agony.mp3 */,
+				03FECFC81CB53CCB002890EF /* ailing.mp3 */,
+				03FECFC91CB53CCB002890EF /* alacrity.mp3 */,
+				03FECFCA1CB53CCB002890EF /* albeit.mp3 */,
+				03FECFCB1CB53CCB002890EF /* alienate.mp3 */,
+				03FECFCC1CB53CCB002890EF /* align.mp3 */,
+				03FECFCD1CB53CCB002890EF /* allay.mp3 */,
+				03FECFCE1CB53CCB002890EF /* alleviate.mp3 */,
+				03FECFCF1CB53CCB002890EF /* allocate.mp3 */,
+				03FECFD01CB53CCB002890EF /* alloy.mp3 */,
+				03FECFD11CB53CCB002890EF /* allude.mp3 */,
+				03FECFD21CB53CCB002890EF /* aloof.mp3 */,
+				03FECFD31CB53CCB002890EF /* altruistic.mp3 */,
+				03FECFD41CB53CCB002890EF /* amalgamate.mp3 */,
+				03FED0361CB557C3002890EF /* amity.mp3 */,
+				03FED0371CB557C3002890EF /* amorphous.mp3 */,
+				03FED0381CB557C3002890EF /* anachronistic.mp3 */,
+				03FED0391CB557C3002890EF /* analgesic.mp3 */,
+				03FED03A1CB557C3002890EF /* analogous.mp3 */,
+				03FED03B1CB557C3002890EF /* anathema.mp3 */,
+				03FED03C1CB557C3002890EF /* ancillary.mp3 */,
+				03FED03D1CB557C3002890EF /* animadversion.mp3 */,
+				03FED03E1CB557C3002890EF /* animated.mp3 */,
+				03FED03F1CB557C3002890EF /* animosity.mp3 */,
+				03FED0401CB557C3002890EF /* annotate.mp3 */,
+				03FED0411CB557C3002890EF /* annul.mp3 */,
+				03FED0421CB557C3002890EF /* anomalous.mp3 */,
+				03FED0431CB557C3002890EF /* anonymous.mp3 */,
+				03FED0441CB557C3002890EF /* antecede.mp3 */,
+				03FED0621CB559BA002890EF /* amass.mp3 */,
+				03FED0631CB559BA002890EF /* ambiguous.mp3 */,
+				03FED0641CB559BA002890EF /* ambivalent.mp3 */,
+				03FED0651CB559BA002890EF /* amble.mp3 */,
+				03FED0661CB559BA002890EF /* ameliorate.mp3 */,
+				03FED0671CB559BA002890EF /* amenable.mp3 */,
+				03FED0681CB559BA002890EF /* amend.mp3 */,
+				03FED0691CB559BA002890EF /* amenity.mp3 */,
+				03FED06A1CB559BA002890EF /* amiable.mp3 */,
+				03FED0451CB557C3002890EF /* antedate.mp3 */,
+				03FED0461CB557C3002890EF /* anthropomorphism.mp3 */,
+				03FED0471CB557C3002890EF /* antidote.mp3 */,
+				03FED0481CB557C3002890EF /* antipathy.mp3 */,
+				03FED0491CB557C3002890EF /* antiquated.mp3 */,
+				03FED04A1CB557C3002890EF /* antithesis.mp3 */,
+				03FED04B1CB557C3002890EF /* antithetical.mp3 */,
+				03FED0AE1CB6ABA6002890EF /* archetype.mp3 */,
+				03FED0AF1CB6ABA7002890EF /* ardent.mp3 */,
+				03FED0B01CB6ABA7002890EF /* ardor.mp3 */,
+				03FED0B11CB6ABA7002890EF /* arduous.mp3 */,
+				03FED0B21CB6ABA7002890EF /* arid.mp3 */,
+				03FED0B31CB6ABA7002890EF /* arrest.mp3 */,
+				03FED0B41CB6ABA7002890EF /* arrogant.mp3 */,
+				03FED0B51CB6ABA7002890EF /* articulate.mp3 */,
+				03FED0B61CB6ABA7002890EF /* artless.mp3 */,
+				03FED0B71CB6ABA7002890EF /* ascertain.mp3 */,
+				03FED0B81CB6ABA7002890EF /* ascetic.mp3 */,
+				03FED0B91CB6ABA7002890EF /* asperity.mp3 */,
+				03FED0BA1CB6ABA7002890EF /* aspersion.mp3 */,
+				03FED0BB1CB6ABA7002890EF /* aspiration.mp3 */,
+				03FED0BC1CB6ABA7002890EF /* assail.mp3 */,
+				03FED0BD1CB6ABA7002890EF /* assendancy.mp3 */,
+				03FED0BE1CB6ABA7002890EF /* assent.mp3 */,
+				03FED0BF1CB6ABA7002890EF /* assert.mp3 */,
+				03FED0C01CB6ABA7002890EF /* assess.mp3 */,
+				03FED0C11CB6ABA7002890EF /* assiduous.mp3 */,
+				03FED0C21CB6ABA7002890EF /* assimilate.mp3 */,
+				03FED0C31CB6ABA7002890EF /* assorted.mp3 */,
+				03FED0C41CB6ABA7002890EF /* assuage.mp3 */,
+				03FED0C51CB6ABA7002890EF /* assume.mp3 */,
+				03FED0C61CB6ABA7002890EF /* astringent.mp3 */,
+				03FED0C71CB6ABA7002890EF /* astute.mp3 */,
+				03FED0C81CB6ABA7002890EF /* asylum.mp3 */,
+				03FED0C91CB6ABA7002890EF /* atone.mp3 */,
+				03FED0CA1CB6ABA7002890EF /* atrocious.mp3 */,
+				03FED0CB1CB6ABA7002890EF /* atrophy.mp3 */,
+			);
+			name = mp3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +786,190 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FED0151CB53CCB002890EF /* affinity.mp3 in Resources */,
+				03FECFF11CB53CCB002890EF /* accountable.mp3 in Resources */,
+				03FED0AA1CB5EBC9002890EF /* arcane.mp3 in Resources */,
+				03FED0921CB5EBC9002890EF /* apex.mp3 in Resources */,
+				03FECFD91CB53CCB002890EF /* abbreviate.mp3 in Resources */,
+				03FECFF41CB53CCB002890EF /* acerbic.mp3 in Resources */,
+				03FECFEA1CB53CCB002890EF /* accede.mp3 in Resources */,
+				03FED01E1CB53CCB002890EF /* agile.mp3 in Resources */,
+				03FED0971CB5EBC9002890EF /* apostate.mp3 in Resources */,
+				03FED0E81CB6ABA7002890EF /* atrocious.mp3 in Resources */,
+				03FED00E1CB53CCB002890EF /* advent.mp3 in Resources */,
+				03FED04F1CB557C3002890EF /* analgesic.mp3 in Resources */,
+				03FED0DE1CB6ABA7002890EF /* assess.mp3 in Resources */,
+				03FED0D61CB6ABA7002890EF /* ascetic.mp3 in Resources */,
+				03FECFDE1CB53CCB002890EF /* abject.mp3 in Resources */,
+				03FECFF21CB53CCB002890EF /* accrete.mp3 in Resources */,
+				03FED0DC1CB6ABA7002890EF /* assent.mp3 in Resources */,
+				03FED0D91CB6ABA7002890EF /* aspiration.mp3 in Resources */,
+				03FED0021CB53CCB002890EF /* adduce.mp3 in Resources */,
+				03FED0D41CB6ABA7002890EF /* artless.mp3 in Resources */,
+				03FED0CF1CB6ABA7002890EF /* arduous.mp3 in Resources */,
+				03FED0281CB53CCB002890EF /* alleviate.mp3 in Resources */,
+				03FED04C1CB557C3002890EF /* amity.mp3 in Resources */,
+				03FECFDA1CB53CCB002890EF /* abdicate.mp3 in Resources */,
+				03FED0E01CB6ABA7002890EF /* assimilate.mp3 in Resources */,
+				03FED00F1CB53CCB002890EF /* adversary.mp3 in Resources */,
+				03FED05B1CB557C3002890EF /* antedate.mp3 in Resources */,
+				03FED0A31CB5EBC9002890EF /* appropriate.mp3 in Resources */,
+				03FECFE81CB53CCB002890EF /* abstruse.mp3 in Resources */,
+				03FED0D31CB6ABA7002890EF /* articulate.mp3 in Resources */,
+				03FECFFB1CB53CCB002890EF /* acrid.mp3 in Resources */,
+				03FED0941CB5EBC9002890EF /* apocalyptic.mp3 in Resources */,
+				03FED0E11CB6ABA7002890EF /* assorted.mp3 in Resources */,
+				03FED0161CB53CCB002890EF /* affirm.mp3 in Resources */,
+				03FED0A41CB5EBC9002890EF /* approve.mp3 in Resources */,
+				03FECFF91CB53CCB002890EF /* acquiesce.mp3 in Resources */,
+				03FED00C1CB53CCB002890EF /* adulterate.mp3 in Resources */,
+				03FECFDF1CB53CCB002890EF /* abjure.mp3 in Resources */,
+				03FECFFF1CB53CCB002890EF /* adage.mp3 in Resources */,
+				03FED0E21CB6ABA7002890EF /* assuage.mp3 in Resources */,
+				03FED02A1CB53CCB002890EF /* alloy.mp3 in Resources */,
+				03FED0231CB53CCB002890EF /* alacrity.mp3 in Resources */,
+				03FECFF81CB53CCB002890EF /* acoustics.mp3 in Resources */,
+				03FED0211CB53CCB002890EF /* agony.mp3 in Resources */,
+				03FED0E41CB6ABA7002890EF /* astringent.mp3 in Resources */,
+				03FECFE11CB53CCB002890EF /* abreast_of.mp3 in Resources */,
+				03FED0A91CB5EBC9002890EF /* arbitrate.mp3 in Resources */,
+				03FECFE41CB53CCB002890EF /* absolve.mp3 in Resources */,
+				03FED0A01CB5EBC9002890EF /* apprehensive.mp3 in Resources */,
+				03FECFDC1CB53CCB002890EF /* abet.mp3 in Resources */,
+				03FED0981CB5EBC9002890EF /* appall.mp3 in Resources */,
+				03FECFED1CB53CCB002890EF /* acclaim.mp3 in Resources */,
+				03FED0CC1CB6ABA7002890EF /* archetype.mp3 in Resources */,
+				03FED0511CB557C3002890EF /* anathema.mp3 in Resources */,
+				03FECF781CB50186002890EF /* Main.storyboard in Resources */,
+				03FED0CE1CB6ABA7002890EF /* ardor.mp3 in Resources */,
+				03FED0081CB53CCB002890EF /* adorn.mp3 in Resources */,
+				03FED0D81CB6ABA7002890EF /* aspersion.mp3 in Resources */,
+				03FED0331CB5474B002890EF /* affable.mp3 in Resources */,
+				03FED06C1CB559BA002890EF /* ambiguous.mp3 in Resources */,
+				03FECFE91CB53CCB002890EF /* abysmal.mp3 in Resources */,
+				03FED0091CB53CCB002890EF /* adrift.mp3 in Resources */,
+				03FED0531CB557C3002890EF /* animadversion.mp3 in Resources */,
+				03FED0AD1CB5ED99002890EF /* appreciate.mp3 in Resources */,
+				03FED0541CB557C3002890EF /* animated.mp3 in Resources */,
+				03FED01F1CB53CCB002890EF /* agitate.mp3 in Resources */,
+				03FED0A61CB5EBC9002890EF /* arable.mp3 in Resources */,
+				03FED0041CB53CCB002890EF /* adequate.mp3 in Resources */,
+				03FED0A21CB5EBC9002890EF /* approbation.mp3 in Resources */,
+				03FED0261CB53CCB002890EF /* align.mp3 in Resources */,
+				03FED06E1CB559BA002890EF /* amble.mp3 in Resources */,
+				03FED0D21CB6ABA7002890EF /* arrogant.mp3 in Resources */,
+				03FED0191CB53CCB002890EF /* affront.mp3 in Resources */,
+				03FED05E1CB557C3002890EF /* antipathy.mp3 in Resources */,
+				03FECFD51CB53CCB002890EF /* abandon.mp3 in Resources */,
+				03FED05C1CB557C3002890EF /* anthropomorphism.mp3 in Resources */,
+				03FED01A1CB53CCB002890EF /* aggrandize.mp3 in Resources */,
+				03FED09B1CB5EBC9002890EF /* apposite.mp3 in Resources */,
+				03FED0961CB5EBC9002890EF /* apologist.mp3 in Resources */,
+				03FECFE51CB53CCB002890EF /* abstain.mp3 in Resources */,
+				03FED0061CB53CCB002890EF /* admonish.mp3 in Resources */,
+				03FED0D01CB6ABA7002890EF /* arid.mp3 in Resources */,
+				03FED00B1CB53CCB002890EF /* adulation.mp3 in Resources */,
+				03FED0D51CB6ABA7002890EF /* ascertain.mp3 in Resources */,
+				03FED0201CB53CCB002890EF /* agog.mp3 in Resources */,
+				03FED0A81CB5EBC9002890EF /* arbitrary.mp3 in Resources */,
+				03FED0071CB53CCB002890EF /* adolescent.mp3 in Resources */,
+				03FED0271CB53CCB002890EF /* allay.mp3 in Resources */,
+				03FED0E91CB6ABA7002890EF /* atrophy.mp3 in Resources */,
+				03FED0DF1CB6ABA7002890EF /* assiduous.mp3 in Resources */,
+				03FED0571CB557C3002890EF /* annul.mp3 in Resources */,
+				03FED0561CB557C3002890EF /* annotate.mp3 in Resources */,
+				03FED0171CB53CCB002890EF /* afflict.mp3 in Resources */,
+				03FED02B1CB53CCB002890EF /* allude.mp3 in Resources */,
+				03FECFE61CB53CCB002890EF /* abstemious.mp3 in Resources */,
+				03FED05A1CB557C3002890EF /* antecede.mp3 in Resources */,
+				03FECFEC1CB53CCB002890EF /* accessible.mp3 in Resources */,
+				03FED0991CB5EBC9002890EF /* apparition.mp3 in Resources */,
+				03FED0AB1CB5EBC9002890EF /* archaic.mp3 in Resources */,
+				03FED0521CB557C3002890EF /* ancillary.mp3 in Resources */,
+				03FED02C1CB53CCB002890EF /* aloof.mp3 in Resources */,
+				03FED06D1CB559BA002890EF /* ambivalent.mp3 in Resources */,
+				03FED01C1CB53CCB002890EF /* aggregate.mp3 in Resources */,
+				03FED00A1CB53CCB002890EF /* adroit.mp3 in Resources */,
+				03FED02D1CB53CCB002890EF /* altruistic.mp3 in Resources */,
+				03FECFE01CB53CCB002890EF /* abrade.mp3 in Resources */,
+				03FED0551CB557C3002890EF /* animosity.mp3 in Resources */,
+				03FED0501CB557C3002890EF /* analogous.mp3 in Resources */,
+				03FECFDB1CB53CCB002890EF /* aberrant.mp3 in Resources */,
+				03FED01D1CB53CCB002890EF /* aggrieved.mp3 in Resources */,
+				03FED0DB1CB6ABA7002890EF /* assendancy.mp3 in Resources */,
+				03FECFEB1CB53CCB002890EF /* accelerate.mp3 in Resources */,
+				03FED0221CB53CCB002890EF /* ailing.mp3 in Resources */,
+				03FED0901CB5EBC9002890EF /* apathetic.mp3 in Resources */,
+				03FECFEF1CB53CCB002890EF /* accolade.mp3 in Resources */,
+				03FED0101CB53CCB002890EF /* adversity.mp3 in Resources */,
+				03FED09C1CB5EBC9002890EF /* appraise.mp3 in Resources */,
+				03FED0291CB53CCB002890EF /* allocate.mp3 in Resources */,
+				03FED0911CB5EBC9002890EF /* apathy.mp3 in Resources */,
+				03FECFF01CB53CCB002890EF /* accord.mp3 in Resources */,
+				03FECFFE1CB53CCB002890EF /* acute.mp3 in Resources */,
+				03FED0131CB53CCB002890EF /* affect.mp3 in Resources */,
+				03FECFD71CB53CCB002890EF /* abash.mp3 in Resources */,
+				03FED0931CB5EBC9002890EF /* aphorism.mp3 in Resources */,
 				03FECF4F1CB4C4F6002890EF /* LaunchScreen.storyboard in Resources */,
+				03FED0001CB53CCB002890EF /* adamant.mp3 in Resources */,
+				03FECFD81CB53CCB002890EF /* abate.mp3 in Resources */,
+				03FECFE21CB53CCB002890EF /* abridge.mp3 in Resources */,
+				03FED0351CB54818002890EF /* affiliate.mp3 in Resources */,
+				03FED09A1CB5EBC9002890EF /* appease.mp3 in Resources */,
+				03FED0111CB53CCB002890EF /* advocate.mp3 in Resources */,
+				03FED0591CB557C3002890EF /* anonymous.mp3 in Resources */,
+				03FED0011CB53CCB002890EF /* adapt.mp3 in Resources */,
+				03FED0E31CB6ABA7002890EF /* assume.mp3 in Resources */,
+				03FED0951CB5EBC9002890EF /* apocryphal.mp3 in Resources */,
+				03FED0051CB53CCB002890EF /* adherent.mp3 in Resources */,
+				03FED0E51CB6ABA7002890EF /* astute.mp3 in Resources */,
+				03FED0581CB557C3002890EF /* anomalous.mp3 in Resources */,
+				03FECFE71CB53CCB002890EF /* abstract.mp3 in Resources */,
+				03FED0A71CB5EBC9002890EF /* arbiter.mp3 in Resources */,
+				03FED0D11CB6ABA7002890EF /* arrest.mp3 in Resources */,
+				03FED0721CB559BA002890EF /* amenity.mp3 in Resources */,
+				03FED00D1CB53CCB002890EF /* adumbrate.mp3 in Resources */,
+				03FED0241CB53CCB002890EF /* albeit.mp3 in Resources */,
+				03FED04E1CB557C3002890EF /* anachronistic.mp3 in Resources */,
+				03FECFFA1CB53CCB002890EF /* acquit.mp3 in Resources */,
+				03FED0E61CB6ABA7002890EF /* asylum.mp3 in Resources */,
+				03FED01B1CB53CCB002890EF /* aggravate.mp3 in Resources */,
+				03FED0E71CB6ABA7002890EF /* atone.mp3 in Resources */,
+				03FECFFC1CB53CCB002890EF /* acrimonious.mp3 in Resources */,
+				03FED0251CB53CCB002890EF /* alienate.mp3 in Resources */,
+				03FECFDD1CB53CCB002890EF /* abeyance.mp3 in Resources */,
+				03FECFFD1CB53CCB002890EF /* acumen.mp3 in Resources */,
+				03FECFEE1CB53CCB002890EF /* acclimate.mp3 in Resources */,
+				03FED05F1CB557C3002890EF /* antiquated.mp3 in Resources */,
 				03FECF4C1CB4C4F6002890EF /* Assets.xcassets in Resources */,
-				03FECF4A1CB4C4F6002890EF /* Main.storyboard in Resources */,
+				03FED06F1CB559BA002890EF /* ameliorate.mp3 in Resources */,
+				03FED0D71CB6ABA7002890EF /* asperity.mp3 in Resources */,
+				03FED06B1CB559BA002890EF /* amass.mp3 in Resources */,
+				03FECFF51CB53CCB002890EF /* acknowledge.mp3 in Resources */,
+				03FECFF31CB53CCB002890EF /* accrue.mp3 in Resources */,
+				03FECFF71CB53CCB002890EF /* acolyte.mp3 in Resources */,
+				03FED0DD1CB6ABA7002890EF /* assert.mp3 in Resources */,
+				03FED04D1CB557C3002890EF /* amorphous.mp3 in Resources */,
+				03FED09D1CB5EBC9002890EF /* appreciable.mp3 in Resources */,
+				03FED0121CB53CCB002890EF /* aesthetic.mp3 in Resources */,
+				03FED09F1CB5EBC9002890EF /* apprehend.mp3 in Resources */,
+				03FED0031CB53CCB002890EF /* adept.mp3 in Resources */,
+				03FED0141CB53CCB002890EF /* affiliate.mp3 in Resources */,
+				03FECFE31CB53CCB002890EF /* abrogate.mp3 in Resources */,
+				03FED02E1CB53CCB002890EF /* amalgamate.mp3 in Resources */,
+				03FECFF61CB53CCB002890EF /* acme.mp3 in Resources */,
+				03FED0731CB559BA002890EF /* amiable.mp3 in Resources */,
+				03FED0601CB557C3002890EF /* antithesis.mp3 in Resources */,
+				03FECFD61CB53CCB002890EF /* abase.mp3 in Resources */,
+				03FED0701CB559BA002890EF /* amenable.mp3 in Resources */,
+				03FED0DA1CB6ABA7002890EF /* assail.mp3 in Resources */,
+				03FED0711CB559BA002890EF /* amend.mp3 in Resources */,
+				03FED0611CB557C3002890EF /* antithetical.mp3 in Resources */,
+				03FED0A11CB5EBC9002890EF /* apprise.mp3 in Resources */,
+				03FED0A51CB5EBC9002890EF /* apropos.mp3 in Resources */,
+				03FED0181CB53CCB002890EF /* affluent.mp3 in Resources */,
+				03FED0CD1CB6ABA7002890EF /* ardent.mp3 in Resources */,
+				03FED05D1CB557C3002890EF /* antidote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +994,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FECF731CB4C652002890EF /* Model.swift in Sources */,
+				03FECF751CB4F7C8002890EF /* DailyVocab.swift in Sources */,
 				03FECF471CB4C4F6002890EF /* ViewController.swift in Sources */,
 				03FECF451CB4C4F6002890EF /* AppDelegate.swift in Sources */,
 			);
@@ -293,20 +1033,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03FECF481CB4C4F6002890EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03FECF491CB4C4F6002890EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03FECF4D1CB4C4F6002890EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				03FECF4E1CB4C4F6002890EF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03FECF761CB50186002890EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FECF771CB50186002890EF /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
